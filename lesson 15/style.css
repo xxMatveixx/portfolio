@@ -1,0 +1,39 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: chartreuse;
+}
+.text {
+    width: 50%;
+    font-size: 20px;
+    color: blue;
+}
+@media (max-width:600px) {
+    .text {
+        width: 70%;
+        font-size:  30px; ;
+    }
+}
+
+@media (max-width:500px){
+.text {
+    width: 100%;
+    font-size: 40px;
+}
+}
+.links {
+    color: whitesmoke;
+}
+.nav_a {
+    color: white;
+    align-items: right;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+.card{
+    background-color: yellow;
+    color: yellowgreen;
+}

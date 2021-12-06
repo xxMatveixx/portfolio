@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+.main-left, .main-right {
+    border: 2px solid rgb(7, 3, 3);
+    box-shadow: 5px -3px 15px 5px #000000;
+}
+.main-right {
+    border: 2px solid rgb(7, 3, 3);
+    box-shadow: 5px -3px 15px 5px #000000;
+}   

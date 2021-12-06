@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('YOUR_USER_ID');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+</head>
+<body>
+    <div class="header"></div>
+
+    <div class="main">
+        <h1>Contact us</h1>
+        <div class="letters">
+        <div class="links">
+            <a href="1"></a>
+            <a href="2"></a>
+            <a href="3"></a>
+        </div>
+        <p>or use our contect form below</p>
+        <form id="contact-from"></form>
+        <label>Email</label>
+        <input type="Email" name="reply_to">
+        <br>
+        <label>Phone</label>
+        <input type="tel"name="phone">
+        <p>Type your message here:</p>
+        <h2>Hello, User!</h2>
+        <p>if you want to know more info about our project than</p>
+        </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.container {
+    width:100%;
+}
+
+h1 {
+    color: white;
+}
+.header {
+    width:100%;
+    background-color: tomato;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-left {
+    background: rgb(243, 235, 2);
+    width: 400px;
+    height: 800px;
+}
+.main-right {
+    background: rgb(117, 3, 117);
+    width: 900px;
+    height: 400px;
+}

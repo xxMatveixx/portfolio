@@ -1,0 +1,18 @@
+.card:hover{
+    transform: translate3d(10px, -10px, 0);
+}
+.container{
+    display: flex;
+}
+.dropdown{
+    background-color: darkgreen;
+}
+ul{
+    text-decoration: none;
+}
+.navbar-brand{
+background-color: darkorange;
+}
+.nav-link{
+    background-color: darkred;
+}

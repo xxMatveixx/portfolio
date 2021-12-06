@@ -1,0 +1,16 @@
+
+div:hover {
+    font-size: larger
+} 
+li {
+    color: orangered;  
+}
+li-1:active {     
+  color:palegreen;
+}
+li-3:last-child {
+    background-color: blue;
+}
+li-2:first-child {
+    background-color: yellowgreen;
+}

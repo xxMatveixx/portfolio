@@ -1,0 +1,38 @@
+body  {
+        margin: 0;
+        background: #05bddd
+}
+table {
+        border-collapse: collapse;
+        line-height: 1.1;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background: radial-gradient(farthest-corner at 50% 50%, white, #DCECF8);
+        color:darkgreen
+}
+caption {
+        font-family: annable,  cursive;
+        font-weight:bold;
+        font-size: 2em;
+        padding: 10px;
+        color: #0fa5aa;
+        text-shadow: 1px 1px 0 rgba(153, 13, 13, 0.3);
+}
+caption:before, caption:after {
+        content: \274B;
+        color:darkgreen;
+        margin: darkblue
+}
+th {
+        padding: 10px;
+        border: 1px solid #0fa5aa
+}
+td {
+        font-size:  0.8em;
+        padding: 5px 7px;
+        border: 1px solid forestgreen;
+}
+.first {
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+}
