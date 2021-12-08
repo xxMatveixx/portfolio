@@ -1,0 +1,20 @@
+.lang1 {
+    display: flex;
+    background-color: darkolivegreen;
+    width: 50px;
+}
+.languages {
+    display: flex;
+    flex-direction: row;
+    
+}
+.header-up {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    width: 100px;
+    justify-content: center;
+}
+.prices {
+    
+}
