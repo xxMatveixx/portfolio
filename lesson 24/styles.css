@@ -1,20 +1,51 @@
-.lang1 {
-    display: flex;
-    background-color: darkolivegreen;
-    width: 50px;
+* {
+    margin: auto;
 }
-.languages {
-    display: flex;
-    flex-direction: row;
-    
+header {
+    width: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1440px;
+}
+.header-inner {
+    width: 100%;
 }
 .header-up {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     width: 100%;
-    width: 100px;
     justify-content: center;
 }
-.prices {
-    
+.lang1 {
+    width: 13%;
+}
+.social {
+    display: flex;
+    width: 15%;
+}
+.phones{
+    width: 15%;
+display: flex;
+flex-direction: column;
+}
+.maistra {
+width: 15%;
+display: flex;
+}
+.tures {
+width: 20%;
+display: flex;
+}
+.dropdowns {
+    width: 100%;
+    display: flex;
+}
+.eco img {
+width: 100%;
+background-position: 0px;
+position: absolute;
+}
+.Mastila-price{
+    width: 1440px;
 }
