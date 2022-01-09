@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valanta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-up">
+                    <div class="logo">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                    </div>
+                    <div class="languages">
+                        <div class="lang1">RU</div>
+                        <div class="lang">UA</div>
+                    </div>
+                    <div class="prices">
+                        <div class="Usd">Usd 28.84</div>
+                        <div class="Eur">Eur 29.5353</div>
+                    </div>
+                    <div class="social">
+                        <img src="images/Vector (2).png" alt="">
+                        <img src="images/instagram (1) 1.png" alt="">
+                        <img src="images/Vector (3).png" alt="">               
+                    </div>
+                    <div class="phones">
+                        <div class="phone1">044-537-20-07</div>
+                        <div class="phone2">068-537-20-07</div>
+                        <div class="phoneimg"><img src="images/smartphone 1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="maistra">
+                     <div class="Online">Maistra Online</div>
+                     <div class="image"><img src="images/Rectangle 89.png" alt="">
+                       
+                    </div>
+                    </div>" 
+                    <div class="tures">
+                        <div class="text-tures">ТУРЫ ОНЛАЙН</div>
+                        <div class="image-tures"><img src="images/Rectangle 41 (1).png" alt="">
+                        
+                        </div>
+                    </div>
+                </div>
+        <div class="header-bottom">
+            <div class="dropdowns">
+                <div class="img"><img src="images/Vector.png" alt=""></div>
+                <div class="Hotel">Отели <img src="./images/Polygon 6.png" alt=""></div>
+                <div class="Hotel">Страны <img src="./images/Polygon 6.png" alt=""></div>
+                <div class="Hotel">Авиа <img src="./images/Polygon 6.png" alt=""></div>
+                <div class="Hotel">Каталог туров <img src="./images/Polygon 6.png" alt=""></div>
+                <div class="Hotel">Агентам <img src="./images/Polygon 6.png" alt=""></div>
+                <div class="Hotel">О нас <img src="./images/Polygon 6.png" alt=""></div>
+                <div class="Hotel">Блог <img src="./images/Polygon 6.png" alt=""></div>
+                <div class="Hotel">FAQ <img src="./images/Polygon 6.png" alt=""></div>
+                <div class="Hotel">Контакты <img src="./images/Polygon 6.png" alt=""></div>
+            </div>
+        </div>
+            <div class="intro">
+                <div class="container">
+                    <div class="intro-inner">
+                        <div class="intro-text">
+                            <div class="Mastila-price">От 300 Евро за сутки</div>
+                            <div class="islands">
+                                новый эко-отель mastila на о. хвар в Хорватии
+                            </div>
+                            <div class="more">Подробнее</div>
+                        </div>
+                        <div class="intro-bottom">
+                            <div class="intro-bottom-left">
+                                <div class="intro-inner-text"> 
+                                    <div class="text1">ВАШ ТУРОПЕРАТОР ВЫСОКОГО УРОВНЯ ОБСЛУЖИВАНИЯ.</div>
+                                    <div class="small-text">откройте мир путешествий</div>                
+                                </div>
+                                <div class="buttons">
+                                    <div class="button1">Что мы предлагаем?</div>
+                                    <div class="button2">Консультация</div>
+                                </div>
+                            </div>
+                            <div class="premiums">
+                                <div class="premium1"><img src="./images/Frame 24.png" alt=""> Индивидуальный подход</div> 
+                                <div class="premium2"><img src="./images/Frame 24.png" alt=""> консьерж</div>
+                                <div class="premium3"><img src="./images/Frame 22.png" alt=""> Отдых премиум класса</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <div class="actual_toors"> 
+        <div class="header_toors"> 
+            <div class="txt_of_toors"><h1>АКТУАЛЬНЫЕ ТУРЫ</h1></div> 
+            <div class="stripe_of_toors"></div> 
+            <div class="div_of_header"><h4>Все туры</h4></div> 
+        </div> 
+        <div class="pictures"> 
+            <div> 
+                <div class="block1"> 
+                    <div><img src="./images/mandarina 2 (1).png" alt=""> 
+                        <div class="txt_shadow"><h4>Портнови, Черногория</h4></div> 
+                    </div> 
+                    <div class="grey1"> 
+                        <div class="oneonly"><h3>ONE&ONLY PORTNOVI</h3></div> 
+                        <div class="first_best"><h5>первый ультра роскошный курорт <br> ONE&ONLY в Европе</h5></div> 
+                        <div class="stripe_noname"></div> 
+                        <div class="price1"> 
+                            <div><h5>от</h5></div> 
+                            <div class="m818"><h2>818 €</h2></div> 
+                        </div> 
+                        <div class="day1_1"><h6>за номер в сутки в сезоен</h6></div> 
+                        <div class="night3_1"><h5> от 3 ночей <br> с 01 мая</h5></div> 
+                    </div> 
+                </div> 
+            </div> 
+            <div> 
+                <div class="block2"> 
+                    <div><img src="./images/1491655 1 (1).png" alt=""> 
+                        <div class="txt_shadow"><h4>Ровинь, п-в Истра</h4></div> 
+                    </div> 
+                    <div class="grey1"> 
+                        <div class="oneonly2"><h3>ЗИМОВКА В REGENT <br> PORTO MONTENEGRO</h3></div> 
+                        <div class="first_best2"><h5>це втілення високого стилю <br> ONE&ONLY в Европе</h5></div> 
+                        <div class="stripe_noname2"></div> 
+                        <div class="price1"> 
+                            <div><h5>от</h5></div> 
+                            <div class="m818"><h2>938 €</h2></div> 
+                        </div> 
+                        <div class="day1_1"><h6>З особи</h6></div> 
+                        <div class="night3_1"><h5> от 3 ночей <br> с 01 мая</h5></div> 
+                    </div> 
+                </div> 
+            </div> 
+            <div> 
+                <div class="block3"> 
+                    <div><img src="./images/276398231 1.png" alt=""> 
+                        <div class="txt_shadow"><h4>Бока Котор, Черногория</h4></div> 
+                    </div> 
+                    <div class="grey1"> 
+                        <div class="oneonly3"><h3>ЛЕЧЕНИЕ В NAFTALAN C <br> АВИА КИЕВ-ЗАГРЕБ-КИЕ</h3></div> 
+                        <div class="first_best3"><h5>первый бренд, воплотиший <br> оригинальную концепцию пляжных...</h5> 
+                        </div> 
+                        <div class="stripe_noname3"></div> 
+                        <div class="price1"> 
+                            <div><h5>от</h5></div> 
+                            <div class="m818"><h2>818 €</h2></div> 
+                        </div> 
+                        <div class="day1_1"><h6>за номер в сутки в сезоен</h6></div> 
+                        <div class="night3_1"><h5> от 3 ночей <br> с 01 мая</h5></div> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+        <div class="arrow1"><img src="./img/Vector%20(2).svg"></div> 
+        <div class="arrow2"><img src="./img/Vector%20(3).svg" alt=""></div> 
+    </div>
+    </div>
+   
+</body>
+</html>
