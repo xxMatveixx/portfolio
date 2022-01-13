@@ -190,7 +190,6 @@ padding-top: 20px;
  
 } 
 .pictures{ 
-    margin-top: 50px; 
     margin-left: 100px; 
     display: flex; 
 } 
@@ -302,4 +301,94 @@ padding-top: 20px;
     height: 50 px; 
     border: 1px solid #c6c6c6; 
     border-radius: 100%; 
+}
+.best_h1 { 
+    margin-top: 55px; 
+    margin-left: 198px; 
+} 
+ 
+.vector2 { 
+    color: #c6c6c6; 
+    height: 50px; 
+    width: 50px; 
+    padding: 12px 12px 21px 10px; 
+    border: 1px solid #c6c6c6; 
+    border-radius: 100%; 
+    margin-left: 500px; 
+    margin-top: -45px; 
+} 
+ 
+.vector3 { 
+    color: #454545; 
+    height: 50px; 
+    width: 50px; 
+    padding: 12px 12px 21px 10px; 
+    border: 1px solid #c6c6c6; 
+    border-radius: 100%; 
+    margin-left: 580px; 
+    margin-top: -50px; 
+} 
+ 
+.palochka { 
+    margin-top: -25px; 
+    margin-left: 700px; 
+    background-color: #c4c4c4; 
+    width: 237px; 
+    height: 1px; 
+} 
+ 
+.all_hotelles { 
+    display: flex; 
+    text-align: center; 
+    justify-content: center; 
+    align-items: center; 
+    height: 45px; 
+    margin-top: -25px; 
+    margin-left: 975px; 
+    width: 140px; 
+    border: 1px solid #969696; 
+    color: #969696; 
+} 
+ 
+.imges { 
+    margin-top: 50px; 
+    display: flex; 
+    justify-content: space-between; 
+} 
+ 
+.country_1, 
+.country_2, 
+.country_3 { 
+    position: relative; 
+} 
+ 
+.country_1 > img, 
+.country_2 > img, 
+.country_3 > img { 
+    -webkit-filter: brightness(70%); 
+    filter: brightness(70%); 
+    width: 100%; 
+} 
+ 
+.shadow { 
+    position: absolute; 
+    top: 20px; 
+    left: 0; 
+    padding: 5px 15px; 
+    text-align: center; 
+    background: rgba(0, 0, 0, 0.35); 
+    color: white; 
+} 
+ 
+.txt_white { 
+    color: white; 
+    position: absolute; 
+    top: 220px; 
+    left: 106px; 
+} 
+ 
+.stars4 { 
+    left: 175px; 
+    position: absolute; 
+    top: 180px; 
 }
