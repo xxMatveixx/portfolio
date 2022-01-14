@@ -18,140 +18,17 @@ header {
     justify-content: center;
 }
 .lang1 {
-    width: 13%;
+    background-color: darkolivegreen;
 }
 .social {
-    display: flex;
-    width: 15%;
+
 }
-.phones{
-    width: 15%;
-display: flex;
-flex-direction: column;
+.header-up {
+    display: flex;
 }
 .maistra {
-width: 15%;
-display: flex;
+
 }
 .tures {
-width: 20%;
-display: flex;
-}
-.dropdowns {
-    width: 100%;
-    display: flex;
-}
-.eco img {
-width: 100%;
-background-position: 0px;
-position: absolute;
-}
-.Mastila-price{
-    width: 1440px;
-    font-family: Open Sans;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 32px;
-/* identical to box height, or 133% */
 
-
-color: #FFFFFF;
-padding-left: 100px;
-padding-top: 100px;
-}
-.intro  {
-    width: 1440px;
-    height: 490px;
-    background: url("./images/Mask\ Group.png");
-}
-.intro-text {
-    width: 100%;
-}
-.islands {
-    padding: 10px;
-    font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 55px;
-/* or 122% */
-
-text-transform: uppercase;
-
-color: #FFFFFF;
-padding-left: 100px;
-}
-.more {
-    padding: 10px;
-    padding-left: 300px;
-    color: rgb(255, 255, 255);
-}
-.intro-inner {
-    width: 100%;
-}
-.intro-inner-text{
-    width: 100%;
-}
-.text1{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 36px;
-    /* or 120% */
-    width: 70%;
-    
-    color: #1D1D1D;
-    padding-top: 350px;
-    padding-right: 350px;
-}
-.small-text {
-    font-family: Open Sans;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 28px;
-/* identical to box height, or 156% */
-
-
-color: #777777;
-padding: 50px;
-padding-left: 100px;
-}
-.button1{
-    font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 20px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FFFFFF;
-background-color: grey;
-width: 200px;
-padding: 15px 44px;
-}
-.button2 {
-    padding: 15px 48px;
-    width: 200px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    /* identical to box height */
-    border: 1px grey  ;
-    padding-right: 500px;
-    color: #969696;  
-}
-.buttons{
-    display:flex ;
-
-}
-.premiums {
-    padding-left: 1200px;
-    padding-bottom: 800px;
 }
