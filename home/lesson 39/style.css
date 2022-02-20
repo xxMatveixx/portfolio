@@ -1,0 +1,27 @@
+.container {
+    width: 600px;
+    height: 500px;
+    border: 2px solid rgb(223, 23, 23);
+    background-color: aliceblue;
+}
+.btns{
+    display: flex;
+}
+.btn-left {
+    border: 1px solid rgb(231, 67, 67);
+}
+.btn-right {
+    border: 1px solid rgb(231, 67, 67);
+    margin-left: 50px;
+}
+.btn-down {
+    border: 1px solid rgb(231, 67, 67);
+    margin-left: 50px;
+}
+.btn-top {
+    border: 1px solid rgb(231, 67, 67);
+    margin-left: 50px;
+}
+.btn btn--clear{
+    margin-top: 100px;
+}
